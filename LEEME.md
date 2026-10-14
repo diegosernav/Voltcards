@@ -1,17 +1,9 @@
 # VoltCards MX
 
-Esta versión usa exactamente el diseño visual aprobado como imagen, con enlaces reales sobre las burbujas de Instagram y TikTok. La imagen y las zonas táctiles escalan juntas al ancho del celular, sin recortar el diseño. No necesita instalaciones ni JavaScript.
+Diseño adaptable: celular vertical y computadora en dos columnas. Instagram, TikTok y WhatsApp tienen enlaces reales.
 
-## Verla
-Descomprime el ZIP y abre index.html. Conserva style.css y la carpeta assets a su lado. Toca las burbujas o sus nombres para abrir los perfiles.
+Para actualizar GitHub Pages, sube index.html, style.css y assets/landing-responsive.png. Conserva CNAME y los ajustes del dominio existente. No subas el ZIP sin descomprimir.
 
-## Publicar en GitHub Pages
-1. Crea un repositorio llamado voltcards.
-2. Sube index.html, style.css y la carpeta assets a la raíz. Sube los archivos descomprimidos, no el ZIP.
-3. En Settings → Pages, selecciona Deploy from a branch, main y / (root). Guarda.
-4. Usa la dirección que muestre GitHub para crear el QR. Prueba la página y el QR desde tu celular antes de imprimir.
+El enlace de WhatsApp se modifica en index.html.
 
-## Actualizar enlaces
-Edita los dos href de index.html. Mientras conserves la dirección pública de la página, el mismo QR seguirá funcionando.
-
-El diseño visual está en assets/landing.png. Los botones están definidos en porcentajes en style.css para conservar su posición al cambiar el tamaño de pantalla.
+El correo usa mailto:contact@voltcards.com.mx para abrir la aplicación de correo del visitante.
